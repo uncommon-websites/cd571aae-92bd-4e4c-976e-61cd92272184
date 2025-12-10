@@ -4,24 +4,24 @@
 
 	const faqs = [
 		{
-			question: "What makes Ellis different from traditional immigration law firms?",
-			answer: "Ellis is what immigration would look like if your favorite tech company built it. Every case runs through structured workflows, automated checks, and a modern platform that gives you full visibility. And unlike software alone, nothing is ever finalized without human attorney review—so you get the speed and precision of technology with the experience and accountability of expert legal counsel."
+			question: "What makes Crosby different from traditional law firms?",
+			answer: "Crosby is the first hybrid law firm combining legal practice with AI technology. We deliver contract reviews in under four hours through lawyer-supervised AI agents. Every contract is reviewed by barred attorneys with domain expertise, but our AI agents learn from each review to optimize for speed and reduce bottlenecks."
 		},
 		{
-			question: "How does Ellis use AI?",
-			answer: "We use AI to streamline data entry, draft initial documents, and spot potential issues, allowing our attorneys to focus on high-value strategy and review."
+			question: "How does the 4-hour turnaround work?",
+			answer: "90%+ of documents are returned within hours, with many reviews completed within minutes. We guarantee a 4-hour turnaround time. Our AI agents handle initial analysis and our attorneys provide expert review and final approval."
 		},
 		{
-			question: "Can you take over our existing immigration cases?",
-			answer: "Yes, we have a dedicated transition team that makes moving your cases to Ellis seamless and efficient."
+			question: "What types of contracts do you review?",
+			answer: "We specialize in commercial contracts for fast-growing startups, including customer agreements, vendor contracts, partnership agreements, and more. Our market benchmarks help optimize terms that won't create deal bottlenecks."
 		},
 		{
-			question: "What types of companies does Ellis work with?",
-			answer: "We work with companies of all sizes, from early-stage startups to Fortune 500 enterprises across various industries."
+			question: "How do you integrate with our workflow?",
+			answer: "Crosby works via Slack, email, or CRM triggers. We fit into your existing workflow without requiring constant input—acting as an extension of your team."
 		},
 		{
-			question: "Do you work with founders?",
-			answer: "Absolutely. We specialize in O-1 and EB-1 visas for founders and have helped hundreds of entrepreneurs establish themselves in the U.S."
+			question: "Who are your typical customers?",
+			answer: "We work with sales leaders and GTM teams at Series A+ fast-growing startups who need quick contract reviews to keep deals moving. Our customers include Cursor, Clay, Cartesia, Pocus, and many other high-growth companies."
 		}
 	];
 </script>
@@ -32,33 +32,32 @@
 		<div class="mx-auto max-w-[1400px] px-6 lg:px-12">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 				<!-- Hero Image (Left) -->
-				<div class="relative h-[600px] w-full rounded-2xl overflow-hidden bg-ellis-green-100/50">
-					<!-- Abstract representation of the statue -->
-					<div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1550100136-e074fa714874?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center opacity-80 mix-blend-multiply grayscale contrast-125 sepia-[.3] hue-rotate-[130deg]"></div>
+				<div class="relative h-[600px] w-full rounded-2xl overflow-hidden bg-gray-100">
+					<img src="/generated/image-confident-sales-leader-at-modern-desk-re-1765401796063-0.webp" alt="Sales leader reviewing contracts" class="absolute inset-0 h-full w-full object-cover" />
 					<div class="absolute inset-0 bg-gradient-to-t from-gray-50 via-transparent to-transparent"></div>
 				</div>
 
 				<!-- Hero Content (Right) -->
 				<div class="flex flex-col gap-12 pl-0 lg:pl-12">
 					<div class="flex flex-col gap-6">
-						<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">First Ever Immigration Platform</span>
+						<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">Contract Reviews in Hours</span>
 						<h1 class="font-serif text-6xl lg:text-7xl leading-[1.1] text-gray-900">
-							U.S. Immigration<br> Solved for<br> People Teams
+							Legal Speed<br> Meets Sales<br> Velocity
 						</h1>
 					</div>
 
 					<div class="grid grid-cols-[100px_1fr] gap-8 border-t border-gray-200 pt-8">
 						<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 mt-1">Our Promise</span>
 						<p class="text-sm leading-relaxed text-gray-600 max-w-sm">
-							We ensure your international hires arrive on-time, stay compliant, and feel valued from Day 1.
+							Contract reviews in under four hours. Lawyer-supervised AI agents and market benchmarks that keep deals moving.
 						</p>
 					</div>
 
 					<div class="grid grid-cols-[100px_1fr] gap-8 border-t border-gray-200 pt-8">
-						<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 mt-3">Get In Touch</span>
-						<a href="/schedule" class="w-fit group flex items-center gap-2 rounded-full bg-black pl-6 pr-1 py-1 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-gray-800">
-							SCHEDULE A CALL
-							<div class="flex h-8 w-8 items-center justify-center rounded-full bg-ellis-green-300 text-gray-900 transition-colors group-hover:bg-ellis-green-400">
+						<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 mt-3">Get Started</span>
+						<a href="mailto:team@crosby.ai" class="w-fit group flex items-center gap-2 rounded-full bg-black pl-6 pr-1 py-1 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-gray-800">
+							CONTACT US
+							<div class="flex h-8 w-8 items-center justify-center rounded-full bg-primary-300 text-gray-900 transition-colors group-hover:bg-primary-400">
 								<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 							</div>
 						</a>
@@ -73,23 +72,24 @@
 		<div class="mx-auto max-w-[1400px] px-6 lg:px-12">
 			<div class="flex justify-between items-baseline border-b border-gray-200 pb-4 mb-12">
 				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">What We Do</span>
-				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">U.S. Immigration Solved</span>
+				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">Contract Reviews Solved</span>
 			</div>
 
 			<div class="max-w-4xl">
 				<h2 class="font-serif text-5xl lg:text-6xl leading-[1.1] text-gray-900 mb-8">
-					Ellis is a modern immigration law firm. <span class="text-gray-400">We combine world-class legal expertise with best-in-class technology to deliver a completely reimagined immigration experience.</span>
+					Crosby is the first hybrid law firm combining legal practice with AI technology. <span class="text-gray-400">We deliver contract reviews in under four hours through lawyer-supervised AI agents and market benchmarks.</span>
 				</h2>
 			</div>
 
 			<div class="mt-24 flex items-center gap-12 border-t border-gray-200 pt-8">
 				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">Trusted By</span>
 				<div class="flex items-center gap-12 opacity-50 grayscale">
-					<!-- Logos (Placeholders text for now as I don't have SVGs) -->
-					<span class="font-bold text-xl font-serif">Adaptive</span>
-					<span class="font-bold text-xl">wordware</span>
-					<span class="font-bold text-xl tracking-tighter">micro1.</span>
-					<span class="font-bold text-xl flex items-center gap-1">Trustwell <div class="h-2 w-2 bg-black rounded-full"></div></span>
+					<!-- Customer logos -->
+					<span class="font-bold text-xl">Cursor</span>
+					<span class="font-bold text-xl">Clay</span>
+					<span class="font-bold text-xl">Cartesia</span>
+					<span class="font-bold text-xl">Pocus</span>
+					<span class="font-bold text-xl">Pulley</span>
 				</div>
 			</div>
 		</div>
@@ -102,10 +102,10 @@
 				<div class="flex flex-col justify-between h-full">
 					<div class="flex flex-col gap-4">
 						<button class="text-left font-serif text-6xl text-gray-900 italic hover:opacity-80 transition-opacity">
-							<span class="text-ellis-green-500 mr-4">*</span>Law Firm
+							<span class="text-primary-500 mr-4">*</span>Law Firm
 						</button>
 						<button class="text-left font-sans text-6xl text-gray-300 hover:text-gray-400 transition-colors">
-							Platform
+							+ AI Agents
 						</button>
 					</div>
 					
@@ -115,13 +115,13 @@
 							<span>02</span>
 						</div>
 						<p class="text-lg text-gray-600 max-w-md leading-relaxed">
-							Our attorneys have scaled immigration programs for companies of all sizes, single founder startups to Fortune 500s.
+							Barred attorneys with domain expertise review every contract. AI agents learn from each review to optimize for redlines least likely to create bottlenecks.
 						</p>
 					</div>
 				</div>
 
 				<div class="relative h-[600px] bg-gray-100 rounded-lg overflow-hidden">
-					<img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop" alt="Team working" class="absolute inset-0 h-full w-full object-cover grayscale contrast-75 sepia-[.2]" />
+					<img src="/generated/image-diverse-team-of-lawyers-and-engineers-co-1765401799130-1.webp" alt="Legal and engineering team collaboration" class="absolute inset-0 h-full w-full object-cover" />
 				</div>
 			</div>
 		</div>
@@ -131,96 +131,95 @@
 	<section class="py-24 bg-white">
 		<div class="mx-auto max-w-[1400px] px-6 lg:px-12">
 			<div class="flex justify-between items-baseline border-b border-gray-200 pb-4 mb-12">
-				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">Our Platform</span>
-				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">All-In-One Solution</span>
+				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">How It Works</span>
+				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">Speed Meets Precision</span>
 			</div>
 
 			<h2 class="font-serif text-5xl lg:text-6xl leading-[1.1] text-gray-900 mb-24 max-w-4xl">
-				Centralize your global mobility program so your team can move <span class="italic">faster</span> and stay compliant, with total visibility and peace of mind.
+				Close deals <span class="italic">faster</span> with contract reviews that combine AI speed and attorney precision, delivered in hours not days.
 			</h2>
 
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-				<!-- Card 1: Track -->
+				<!-- Card 1: Lightning Fast -->
 				<div class="bg-gray-50 rounded-xl p-8 flex flex-col gap-8">
-					<h3 class="font-serif text-2xl">Track</h3>
+					<h3 class="font-serif text-2xl">Lightning Fast</h3>
 					<div class="grid grid-cols-[80px_1fr] gap-8">
-						<span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">Up To Date</span>
+						<span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">4-Hour SLA</span>
 						<p class="text-sm text-gray-600 leading-relaxed">
-							Real-time visibility into every step from internal review to post-filing updates—through direct USCIS integration.
-						</p>
-					</div>
-					<div class="mt-auto bg-white rounded-lg p-6 shadow-sm border border-gray-100 flex items-center justify-center h-48">
-						<div class="w-full max-w-[200px] space-y-2">
-							<div class="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
-								<div class="h-full w-2/3 bg-gray-900 rounded-full"></div>
-							</div>
-							<div class="flex justify-between text-[10px] font-medium text-gray-500">
-								<span>USCIS PROCESSING</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Card 2: Vault -->
-				<div class="bg-gray-50 rounded-xl p-8 flex flex-col gap-8">
-					<h3 class="font-serif text-2xl">Vault</h3>
-					<div class="grid grid-cols-[80px_1fr] gap-8">
-						<span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">Fully Secure</span>
-						<p class="text-sm text-gray-600 leading-relaxed">
-							Securely store all immigration documents, petitions, and approvals for every employee.
+							90%+ of documents returned within hours. Many reviews completed within minutes. Guaranteed 4-hour turnaround.
 						</p>
 					</div>
 					<div class="mt-auto bg-white rounded-lg p-6 shadow-sm border border-gray-100 flex items-center justify-center h-48">
 						<div class="flex flex-col items-center gap-3">
-							<div class="h-10 w-10 rounded-full border-2 border-gray-200 border-t-gray-900 animate-spin"></div>
-							<span class="text-xs font-medium text-gray-900">Processing Document</span>
-							<span class="text-[10px] text-gray-400 uppercase tracking-wider">VISA-STAMP.JPG</span>
+							<div class="text-5xl font-serif text-gray-900">4h</div>
+							<span class="text-xs font-medium text-gray-500 uppercase tracking-wider">Guaranteed Turnaround</span>
 						</div>
 					</div>
 				</div>
 
-				<!-- Card 3: Radar -->
+				<!-- Card 2: Market Benchmarks -->
 				<div class="bg-gray-50 rounded-xl p-8 flex flex-col gap-8">
-					<h3 class="font-serif text-2xl">Radar</h3>
+					<h3 class="font-serif text-2xl">Market Benchmarks</h3>
 					<div class="grid grid-cols-[80px_1fr] gap-8">
-						<span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">You're Covered</span>
+						<span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">Data-Driven</span>
 						<p class="text-sm text-gray-600 leading-relaxed">
-							Automatic alerts for renewals, expirations, and deadlines—so nothing falls through the cracks.
-						</p>
-					</div>
-					<div class="mt-auto bg-white rounded-lg p-6 shadow-sm border border-gray-100 flex items-center justify-center h-48 relative overflow-hidden">
-						<div class="absolute inset-0 flex items-center justify-center opacity-50 blur-[1px]">
-							<!-- Fake ID Card -->
-							<div class="w-48 h-28 bg-gray-100 rounded border border-gray-200 p-2 flex gap-2">
-								<div class="w-8 h-10 bg-gray-300 rounded"></div>
-								<div class="flex-1 space-y-1">
-									<div class="h-2 w-20 bg-gray-300 rounded"></div>
-									<div class="h-1 w-full bg-gray-200 rounded"></div>
-									<div class="h-1 w-full bg-gray-200 rounded"></div>
-								</div>
-							</div>
-						</div>
-						<div class="relative z-10 bg-white px-3 py-1 rounded shadow text-xs font-bold text-red-500 flex items-center gap-2">
-							<div class="h-2 w-2 bg-red-500 rounded-full"></div>
-							Expiring Soon
-						</div>
-					</div>
-				</div>
-
-				<!-- Card 4: Ellis AI -->
-				<div class="bg-gray-50 rounded-xl p-8 flex flex-col gap-8">
-					<h3 class="font-serif text-2xl">Ellis AI</h3>
-					<div class="grid grid-cols-[80px_1fr] gap-8">
-						<span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">Just Ask</span>
-						<p class="text-sm text-gray-600 leading-relaxed">
-							Instantly surface answers like "What's the status of David's H-1B?" or "Show me who needs renewals in Q4."
+							Agents optimize for redlines least likely to create bottlenecks, informed by market data from hundreds of deals.
 						</p>
 					</div>
 					<div class="mt-auto bg-white rounded-lg p-6 shadow-sm border border-gray-100 flex items-center justify-center h-48">
-						<div class="w-full bg-gray-50 rounded-full px-4 py-2 flex justify-between items-center border border-gray-200">
-							<span class="text-xs text-gray-500">Ask Ellis AI...</span>
-							<div class="h-6 w-6 rounded-full bg-gray-200 flex items-center justify-center">
-								<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+						<div class="flex flex-col items-center gap-3">
+							<div class="flex items-baseline gap-1">
+								<span class="text-4xl font-serif text-gray-900">80%</span>
+								<span class="text-sm text-gray-500">faster</span>
+							</div>
+							<span class="text-xs font-medium text-gray-500 uppercase tracking-wider">Redline Speed</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Card 3: Knowledge Agents -->
+				<div class="bg-gray-50 rounded-xl p-8 flex flex-col gap-8">
+					<h3 class="font-serif text-2xl">Knowledge Agents</h3>
+					<div class="grid grid-cols-[80px_1fr] gap-8">
+						<span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">Always Learning</span>
+						<p class="text-sm text-gray-600 leading-relaxed">
+							Legal agents learn from each review, storing client information and preferences for consistent, intelligent reviews.
+						</p>
+					</div>
+					<div class="mt-auto bg-white rounded-lg p-6 shadow-sm border border-gray-100 flex items-center justify-center h-48">
+						<div class="flex flex-col items-center gap-3">
+							<div class="flex items-center gap-2">
+								<div class="h-3 w-3 bg-primary-500 rounded-full animate-pulse"></div>
+								<div class="h-3 w-3 bg-primary-400 rounded-full animate-pulse" style="animation-delay: 0.2s"></div>
+								<div class="h-3 w-3 bg-primary-300 rounded-full animate-pulse" style="animation-delay: 0.4s"></div>
+							</div>
+							<span class="text-xs font-medium text-gray-900">AI Learning</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Card 4: Seamless Integration -->
+				<div class="bg-gray-50 rounded-xl p-8 flex flex-col gap-8">
+					<h3 class="font-serif text-2xl">Seamless Integration</h3>
+					<div class="grid grid-cols-[80px_1fr] gap-8">
+						<span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">Your Workflow</span>
+						<p class="text-sm text-gray-600 leading-relaxed">
+							Works via Slack, email, or CRM triggers. Fits into your existing workflow without requiring constant input.
+						</p>
+					</div>
+					<div class="mt-auto bg-white rounded-lg p-6 shadow-sm border border-gray-100 flex items-center justify-center h-48">
+						<div class="flex items-center gap-4">
+							<div class="flex flex-col items-center gap-2">
+								<div class="h-8 w-8 rounded bg-gray-200 flex items-center justify-center text-xs font-bold">📧</div>
+								<span class="text-[10px] text-gray-500">Email</span>
+							</div>
+							<div class="flex flex-col items-center gap-2">
+								<div class="h-8 w-8 rounded bg-gray-200 flex items-center justify-center text-xs font-bold">💬</div>
+								<span class="text-[10px] text-gray-500">Slack</span>
+							</div>
+							<div class="flex flex-col items-center gap-2">
+								<div class="h-8 w-8 rounded bg-gray-200 flex items-center justify-center text-xs font-bold">⚡</div>
+								<span class="text-[10px] text-gray-500">CRM</span>
 							</div>
 						</div>
 					</div>
@@ -228,15 +227,15 @@
 			</div>
 
 			<div class="mt-24 grid grid-cols-[100px_1fr] gap-8 border-t border-gray-200 pt-8">
-				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 mt-3">Demo</span>
+				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 mt-3">Get Started</span>
 				<div class="flex flex-col gap-8">
-					<h3 class="font-serif text-2xl">Want to see it in action?</h3>
+					<h3 class="font-serif text-2xl">Ready to speed up your deals?</h3>
 					<p class="text-sm text-gray-600 leading-relaxed max-w-lg">
-						Schedule a personalized demo to see how Ellis can transform your immigration process. We'll show you exactly how our platform works and answer any questions about your specific needs.
+						Join fast-growing companies like Cursor, Clay, and Cartesia. Get contract reviews in hours, not days. Reach out to learn more about how Crosby can accelerate your sales cycle.
 					</p>
-					<a href="/schedule" class="group flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-gray-900">
-						SCHEDULE A CALL
-						<div class="flex h-6 w-6 items-center justify-center rounded-full bg-ellis-green-300 text-gray-900 transition-colors group-hover:bg-ellis-green-400">
+					<a href="mailto:team@crosby.ai" class="group flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-gray-900">
+						CONTACT US
+						<div class="flex h-6 w-6 items-center justify-center rounded-full bg-primary-300 text-gray-900 transition-colors group-hover:bg-primary-400">
 							<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 						</div>
 					</a>
@@ -249,18 +248,17 @@
 	<section class="py-24 bg-white">
 		<div class="mx-auto max-w-[1400px] px-6 lg:px-12">
 			<div class="flex justify-between items-baseline border-b border-gray-200 pb-4 mb-12">
-				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">How We Work</span>
-				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">Your Immigration Team</span>
+				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">Customer Stories</span>
+				<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">Trusted By Leaders</span>
 			</div>
 
 			<h2 class="font-serif text-5xl lg:text-6xl leading-[1.1] text-gray-900 mb-24 max-w-4xl">
-				We become an extension of your <span class="underline decoration-1 underline-offset-4 decoration-gray-300">team</span>, bringing deep immigration expertise and custom solutions tailored to your business.
+				Fast-growing companies rely on Crosby to <span class="underline decoration-1 underline-offset-4 decoration-gray-300">eliminate</span> legal bottlenecks and accelerate their sales cycles.
 			</h2>
 
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-				<div class="relative h-[500px] bg-ellis-green-100/50 rounded-lg overflow-hidden">
-					<!-- Stylized portrait placeholder -->
-					<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt="Sean McDermott" class="absolute inset-0 h-full w-full object-cover mix-blend-multiply grayscale contrast-125" />
+				<div class="relative h-[500px] bg-gray-100 rounded-lg overflow-hidden">
+					<img src="/generated/image-professional-male-executive-in-business--1765401801490-2.webp" alt="Jordan, COO at Cursor" class="absolute inset-0 h-full w-full object-cover" />
 				</div>
 				<div class="flex flex-col justify-between h-full py-8">
 					<div class="flex justify-between items-baseline mb-12">
@@ -273,12 +271,12 @@
 					</div>
 					
 					<blockquote class="font-sans text-xl lg:text-2xl leading-relaxed text-gray-600 mb-12">
-						"Ellis is an exceptional immigration partner, delivering fast and knowledgeable service. Their platform makes the process easier than anything I've experienced in over a decade and a half of hiring international candidates to tech companies."
+						"Makes contract review a breeze, speeding up our time to revenue. It just works."
 					</blockquote>
 
 					<div>
-						<p class="text-[10px] font-bold uppercase tracking-widest text-gray-900">Sean McDermott</p>
-						<p class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">Chief People Officer, Adaptive Security</p>
+						<p class="text-[10px] font-bold uppercase tracking-widest text-gray-900">Jordan</p>
+						<p class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-1">COO, Cursor</p>
 					</div>
 
 					<div class="mt-12 h-0.5 w-full bg-gray-100">
@@ -294,11 +292,11 @@
 		<div class="mx-auto max-w-[1400px] px-6 lg:px-12">
 			<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
 				<div class="lg:col-span-4 flex flex-col gap-8">
-					<h2 class="font-serif text-5xl text-gray-900">Ellis FAQ</h2>
+					<h2 class="font-serif text-5xl text-gray-900">Crosby FAQ</h2>
 					<p class="text-sm text-gray-600">Got questions? We've got answers.</p>
-					<a href="/schedule" class="group flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-gray-900 mt-4">
-						SCHEDULE A CALL
-						<div class="flex h-6 w-6 items-center justify-center rounded-full bg-ellis-green-300 text-gray-900 transition-colors group-hover:bg-ellis-green-400">
+					<a href="mailto:team@crosby.ai" class="group flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-gray-900 mt-4">
+						CONTACT US
+						<div class="flex h-6 w-6 items-center justify-center rounded-full bg-primary-300 text-gray-900 transition-colors group-hover:bg-primary-400">
 							<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 						</div>
 					</a>
@@ -315,7 +313,7 @@
 									<span class="text-sm font-medium text-gray-900 group-hover:text-gray-600 transition-colors pr-8">{faq.question}</span>
 									<div class="flex-shrink-0 transition-transform duration-300 {openFaq === i ? 'rotate-45' : ''}">
 										{#if openFaq === i}
-											<div class="h-6 w-6 rounded-full bg-ellis-green-300 flex items-center justify-center text-gray-900">
+											<div class="h-6 w-6 rounded-full bg-primary-300 flex items-center justify-center text-gray-900">
 												<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
 											</div>
 										{:else}
@@ -340,35 +338,31 @@
 	<section class="py-24 bg-white">
 		<div class="mx-auto max-w-[1400px] px-6 lg:px-12">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-				<div class="relative h-[400px] w-full flex items-center justify-center">
-					<!-- Torch illustration placeholder -->
-					<div class="relative h-full w-full max-w-xs opacity-80">
-						<div class="absolute inset-0 bg-ellis-green-100 opacity-50 blur-3xl rounded-full"></div>
-						<img src="https://images.unsplash.com/photo-1550100136-e074fa714874?q=80&w=400&auto=format&fit=crop" alt="Torch" class="relative z-10 h-full w-full object-cover mask-image-torch mix-blend-multiply grayscale contrast-125 sepia-[.3] hue-rotate-[130deg] rounded-full" style="mask-image: linear-gradient(to bottom, black, transparent);" />
-					</div>
+				<div class="relative h-[400px] w-full rounded-lg overflow-hidden bg-gray-100">
+					<img src="/generated/image-young-professional-working-efficiently-a-1765401803986-3.webp" alt="Efficient work with Crosby" class="absolute inset-0 h-full w-full object-cover" />
 				</div>
 
 				<div class="flex flex-col gap-12">
 					<div class="flex justify-between items-baseline border-b border-gray-200 pb-4">
-						<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">U.S. Immigration Solved</span>
+						<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-900">Contract Reviews Solved</span>
 					</div>
 
 					<h2 class="font-serif text-5xl lg:text-6xl leading-[1.1] text-gray-900">
-						Ready to modernize your immigration program?
+						Ready to accelerate your sales cycle?
 					</h2>
 
 					<div class="grid grid-cols-[100px_1fr] gap-8 border-t border-gray-200 pt-8">
 						<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 mt-3">What Now</span>
 						<p class="text-sm leading-relaxed text-gray-600 max-w-sm">
-							Let's discuss your immigration needs and build a solution that works.
+							Join fast-growing companies getting contract reviews in hours, not days. Let's discuss how Crosby can help your team close deals faster.
 						</p>
 					</div>
 
 					<div class="grid grid-cols-[100px_1fr] gap-8 border-t border-gray-200 pt-8">
 						<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 mt-3">Start Today</span>
-						<a href="/schedule" class="w-fit group flex items-center gap-2 rounded-full bg-black pl-6 pr-1 py-1 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-gray-800">
-							SCHEDULE A CALL
-							<div class="flex h-8 w-8 items-center justify-center rounded-full bg-ellis-green-300 text-gray-900 transition-colors group-hover:bg-ellis-green-400">
+						<a href="mailto:team@crosby.ai" class="w-fit group flex items-center gap-2 rounded-full bg-black pl-6 pr-1 py-1 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-gray-800">
+							GET IN TOUCH
+							<div class="flex h-8 w-8 items-center justify-center rounded-full bg-primary-300 text-gray-900 transition-colors group-hover:bg-primary-400">
 								<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 							</div>
 						</a>
@@ -378,12 +372,4 @@
 		</div>
 	</section>
 </div>
-
-<style>
-	/* Custom mask for the torch image to make it look like it's fading out */
-	.mask-image-torch {
-		mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-		-webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-	}
-</style>
 
